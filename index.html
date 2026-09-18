@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="SkyForge is the home base for pilots, makers, and curious people who see the world from above." />
     <title>SkyForge — Find your altitude</title>
-    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+    <link rel="icon" type="image/png" href="logo-transparent.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -14,12 +14,14 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="SkyForge home">
-        <img class="brand-icon" src="logo.svg" alt="" />
-        <span>skyforge</span>
+        <img class="brand-icon" src="logo-transparent.png" alt="" />
+        <span>SkyForge</span>
       </a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="#why">Why SkyForge</a>
+        <a href="#features">Features</a>
         <a href="#community">Community</a>
+        <a href="#plans">Plans</a>
         <a href="#join">Get early access</a>
       </nav>
       <a class="nav-cta" href="#join">Join the waitlist <span aria-hidden="true">↗</span></a>
@@ -33,6 +35,7 @@
         <div class="hero-grid"></div>
         <div class="hero-copy reveal">
           <p class="eyebrow"><span class="live-dot"></span> The community above the ordinary</p>
+          <p class="hero-slogan">Explore. Create. Fly.</p>
           <h1 id="hero-title">Find your<br /><em>altitude.</em></h1>
           <p class="hero-intro">A home for the people who build, fly, and look at the world a little differently.</p>
           <div class="hero-actions">
@@ -49,7 +52,7 @@
 
       <section class="signal-band" id="why" aria-label="SkyForge highlights">
         <div class="signal-intro"><span class="section-index">01 / 04</span><h2>More than a<br /><em>feed.</em></h2></div>
-        <p class="signal-description">SkyForge is the field guide, workshop, and launchpad for the next generation of aerial creators.</p>
+        <p class="signal-description">SkyForge is a community and flight companion for drone pilots, FPV enthusiasts, aerial photographers, and makers. Share flying spots, upload STL files for custom 3D-printed parts, check local weather, and get nearby recommendations matched to what your drone can handle.</p>
         <div class="signal-arrow" aria-hidden="true">↘</div>
       </section>
 
@@ -66,13 +69,46 @@
         </div>
       </section>
 
+      <section class="features" id="features" aria-labelledby="features-title">
+        <div class="features-heading">
+          <div>
+            <span class="section-index">02 / 05</span>
+            <h2 id="features-title">Everything you need<br /><em>to go further.</em></h2>
+          </div>
+          <p>One home base for planning the flight, building the rig, and finding your next view.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-build">
+            <div class="feature-topline"><span class="feature-number">01</span><span class="feature-symbol">+</span></div>
+            <div class="feature-visual build-visual" aria-hidden="true"><span class="build-ring"></span><span class="build-part">STL</span><span class="build-node build-node-one"></span><span class="build-node build-node-two"></span></div>
+            <div class="feature-copy"><h3>Build your<br /><em>own edge.</em></h3><p>Upload your STL files, share custom designs, and 3D print the drone parts made for your next build.</p></div>
+          </article>
+          <article class="feature-card feature-map">
+            <div class="feature-topline"><span class="feature-number">02</span><span class="feature-symbol">↗</span></div>
+            <div class="feature-visual map-visual" aria-hidden="true"><span class="map-grid"></span><span class="map-route"></span><span class="map-pin pin-one"></span><span class="map-pin pin-two"></span><span class="map-pin pin-three"></span></div>
+            <div class="feature-copy"><h3>Put your spot<br /><em>on the map.</em></h3><p>Post your favourite flying places and discover a community map built by pilots, for pilots.</p></div>
+          </article>
+          <article class="feature-card feature-weather">
+            <div class="feature-topline"><span class="feature-number">03</span><span class="feature-symbol">⌁</span></div>
+            <div class="feature-visual weather-visual" aria-hidden="true"><span class="weather-sun"></span><span class="weather-line line-one"></span><span class="weather-line line-two"></span><span class="weather-line line-three"></span><span class="weather-temp">18°</span></div>
+            <div class="feature-copy"><h3>Know before<br /><em>you launch.</em></h3><p>See local wind, visibility, and weather conditions before you pack up and head out.</p></div>
+          </article>
+          <article class="feature-card feature-match">
+            <div class="feature-topline"><span class="feature-number">04</span><span class="feature-symbol">◎</span></div>
+            <div class="feature-visual match-visual" aria-hidden="true"><span class="match-orbit orbit-small"></span><span class="match-orbit orbit-large"></span><span class="match-drone">✦</span><span class="match-label">MATCHED</span></div>
+            <div class="feature-copy"><h3>Find where<br /><em>you fit.</em></h3><p>SkyForge matches your drone's capabilities to nearby places worth exploring.</p></div>
+          </article>
+        </div>
+      </section>
+
       <section class="community" id="community" aria-labelledby="community-title">
         <div class="community-heading">
-          <div><span class="section-index">02 / 04</span><h2 id="community-title">Make something<br /><em>worth seeing.</em></h2></div>
+          <div><span class="section-index">03 / 05</span><h2 id="community-title">Make something<br /><em>worth seeing.</em></h2></div>
           <p>Bring your curiosity. Leave with a new route, a better rig, or a reason to get outside.</p>
         </div>
         <div class="community-grid">
-          <article class="community-card card-orange">
+          <article class="community-card card-orange card-photo">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85" alt="Friends spending time together outdoors" />
             <div><span class="card-number">01</span><span class="card-icon">◌</span></div>
             <h3>Find your<br />flight crew.</h3>
             <p>Meet pilots and creators who speak your frequency.</p>
@@ -80,9 +116,10 @@
           </article>
           <article class="community-card card-image">
             <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=900&q=85" alt="Drone silhouette against a sunset sky" />
-            <div class="image-card-overlay"><span class="card-number">02</span><h3>Share the<br />view.</h3><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <div class="image-card-overlay"><span class="card-number">02</span><h3>Share the<br />view.</h3><p>Post your best footage and give the community a new perspective.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
           </article>
-          <article class="community-card card-dark">
+          <article class="community-card card-dark card-photo">
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85" alt="A small group of creators collaborating outdoors" />
             <div><span class="card-number">03</span><span class="card-icon">⌁</span></div>
             <h3>Build what’s<br />next.</h3>
             <p>Swap schematics, print better parts, and ship wild ideas.</p>
@@ -91,10 +128,55 @@
         </div>
       </section>
 
+      <section class="plans" id="plans" aria-labelledby="plans-title">
+        <div class="plans-heading">
+          <span class="section-index plans-index">04 / 05</span>
+          <p class="plans-kicker">Choose your plan</p>
+          <h2 id="plans-title">More flight.<br /><em>More freedom.</em></h2>
+          <p class="plans-intro">Whether you're just getting started or living the drone life, there's a SkyForge plan for you.</p>
+        </div>
+        <div class="plan-grid">
+          <article class="plan-card">
+            <div class="plan-icon">✦</div>
+            <h3>Pilot</h3>
+            <p class="plan-tagline">Get in the air.</p>
+            <p class="plan-price"><strong>$0</strong><span>/ forever</span></p>
+            <p class="plan-trial plan-trial-placeholder" aria-hidden="true">First 3 weeks free</p>
+            <a class="plan-button" href="#join">Get started <span aria-hidden="true">↗</span></a>
+            <ul class="plan-benefits">
+              <li>Browse spots</li><li>Basic weather</li><li>Limited saves</li><li>Limited STL downloads</li><li class="unavailable">Unlimited spot uploads</li><li class="unavailable">Wind forecasts</li><li class="unavailable">Offline maps</li><li class="unavailable">AI recommendations</li><li class="unavailable">Featured creator profile</li><li class="unavailable">Priority support</li><li class="unavailable">Exclusive beta features</li>
+            </ul>
+          </article>
+          <article class="plan-card plan-card-featured">
+            <span class="popular-badge">Most popular</span>
+            <div class="plan-icon">⌁</div>
+            <h3>Creator</h3>
+            <p class="plan-tagline">Build and explore more.</p>
+            <p class="plan-price"><strong>$2.99</strong><span>/ month<br />or $19.99 / year</span></p>
+            <p class="plan-trial">First 3 weeks free</p>
+            <a class="plan-button" href="#join">Get Creator <span aria-hidden="true">↗</span></a>
+            <ul class="plan-benefits">
+              <li>Browse spots</li><li>Basic weather</li><li>More saves</li><li>More STL downloads</li><li>Unlimited spot uploads</li><li>Wind forecasts</li><li>Offline maps</li><li class="unavailable">AI recommendations</li><li class="unavailable">Featured creator profile</li><li class="unavailable">Priority support</li><li class="unavailable">Exclusive beta features</li>
+            </ul>
+          </article>
+          <article class="plan-card">
+            <div class="plan-icon">♢</div>
+            <h3>Forge Elite</h3>
+            <p class="plan-tagline">For the pilots who live this hobby.</p>
+            <p class="plan-price"><strong>$6.99</strong><span>/ month<br />or $69.99 / year</span></p>
+            <p class="plan-trial">First 3 weeks free</p>
+            <a class="plan-button" href="#join">Get Forge Elite <span aria-hidden="true">↗</span></a>
+            <ul class="plan-benefits">
+              <li>Browse spots</li><li>Basic weather</li><li>Unlimited saves</li><li>Unlimited STL downloads</li><li>Unlimited spot uploads</li><li>Wind forecasts</li><li>Offline maps</li><li>AI recommendations</li><li>Featured creator profile</li><li>Priority support</li><li>Exclusive beta features</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
       <section class="join-section" id="join" aria-labelledby="join-title">
         <div class="join-orbit orbit-one"></div><div class="join-orbit orbit-two"></div>
         <div class="join-content">
-          <span class="section-index light-index">03 / 04</span>
+          <span class="section-index light-index">05 / 05</span>
           <h2 id="join-title">The sky’s<br /><em>not the limit.</em></h2>
           <p>SkyForge is getting ready for takeoff. Get on the list and be part of the first flight.</p>
           <form class="waitlist-form" id="waitlist-form">
@@ -104,12 +186,12 @@
           </form>
           <p class="form-note" id="form-note">No noise. Just launch updates.</p>
         </div>
-        <img class="join-logo" src="logo.svg" alt="" aria-hidden="true" />
+        <img class="join-logo" src="logo-transparent.png" alt="" aria-hidden="true" />
       </section>
     </main>
 
     <footer class="site-footer">
-      <a class="brand" href="#top"><img class="brand-icon" src="logo.svg" alt="" /><span>skyforge</span></a>
+      <a class="brand" href="#top"><img class="brand-icon" src="logo-transparent.png" alt="" /><span>SkyForge</span></a>
       <p>Explore. Create. Fly.</p>
       <p class="footer-meta">© 2025 SkyForge / Made for the upwardly curious</p>
     </footer>
