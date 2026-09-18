@@ -20,7 +20,8 @@ waitlistForm?.addEventListener('submit', (event) => {
   event.preventDefault();
   const email = new FormData(waitlistForm).get('email');
   if (!email) return;
-  formNote.textContent = 'You’re on the list. Watch the skies.';
+  formNote.innerHTML = '<strong>You\'re on the waitlist.</strong><span>We\'ll keep you updated as SkyForge takes shape.</span>';
+  formNote.classList.add('is-confirmed');
   formNote.style.color = 'var(--lime)';
   waitlistForm.reset();
 });
