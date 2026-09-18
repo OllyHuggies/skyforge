@@ -58,7 +58,7 @@ h1, h2, h3, p { margin-top: 0; }.hero h1 { margin-bottom: 26px; font-size: clamp
   .brand { font-size: 21px; }
   .brand-icon { width: 42px; height: 42px; }
   .join-logo { border-width: 5px; border-radius: 25px; }
-  .join-logo { width: 145px; height: 145px; top: 63%; right: 7vw; }
+  .join-logo { width: 96px; height: 96px; top: auto; right: 7vw; bottom: 24px; }
   .features { padding: 75px 9vw 90px; }
   .features-heading { display: block; margin-bottom: 40px; }
   .features-heading > p { margin-top: 25px; }
