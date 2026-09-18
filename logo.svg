@@ -1,0 +1,15 @@
+<svg width="768" height="768" viewBox="0 0 768 768" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="768" height="768" rx="170" fill="#050A13"/>
+  <path d="M177 243C223 158 301 116 386 116C473 116 550 159 594 242" stroke="url(#arc)" stroke-width="25" stroke-linecap="round"/>
+  <path d="M177 243L91 270L178 274L211 251L177 243ZM594 243L680 270L593 274L560 251L594 243Z" fill="#087DF4"/>
+  <path d="M228 251L318 244L354 264L411 264L449 244L540 251L559 279L538 310L485 303L455 286L313 286L281 303L227 310L208 279L228 251Z" fill="#F5F9FF"/>
+  <path d="M274 297L218 320L205 385L229 391L242 349L301 367L322 343L292 321L274 297ZM494 297L550 320L563 385L539 391L526 349L467 367L446 343L476 321L494 297Z" fill="#F5F9FF"/>
+  <path d="M341 282H427L450 307L431 331H337L318 307L341 282Z" fill="#F5F9FF"/>
+  <rect x="342" y="330" width="84" height="72" rx="18" fill="#F5F9FF"/>
+  <circle cx="384" cy="366" r="22" fill="#050A13"/><circle cx="390" cy="360" r="7" fill="#F5F9FF"/>
+  <path d="M384 447L153 600L307 490L328 496L384 447L440 496L461 490L615 600L384 447Z" fill="url(#mountain)"/>
+  <defs>
+    <linearGradient id="arc" x1="177" y1="116" x2="594" y2="242" gradientUnits="userSpaceOnUse"><stop stop-color="#0DE0F4"/><stop offset="1" stop-color="#087DF4"/></linearGradient>
+    <linearGradient id="mountain" x1="235" y1="460" x2="541" y2="582" gradientUnits="userSpaceOnUse"><stop stop-color="#0DE0F4"/><stop offset="1" stop-color="#087DF4"/></linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SkyForge is the home base for pilots, makers, and curious people who see the world from above." />
+    <title>SkyForge — Find your altitude</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="SkyForge home">
+        <img class="brand-icon" src="logo.svg" alt="" />
+        <span>skyforge</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#why">Why SkyForge</a>
+        <a href="#community">Community</a>
+        <a href="#join">Get early access</a>
+      </nav>
+      <a class="nav-cta" href="#join">Join the waitlist <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-art" role="img" aria-label="Aerial view of a mountain ridge and forest"></div>
+        <div class="hero-scrim"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="live-dot"></span> The community above the ordinary</p>
+          <h1 id="hero-title">Find your<br /><em>altitude.</em></h1>
+          <p class="hero-intro">A home for the people who build, fly, and look at the world a little differently.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#join">Get early access <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#community">Explore the community <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-stat reveal reveal-delay-1">
+          <span class="stat-number">01</span>
+          <span class="stat-label">A new perspective<br />is taking off</span>
+        </div>
+        <div class="scroll-cue"><span></span> Scroll to explore</div>
+      </section>
+
+      <section class="signal-band" id="why" aria-label="SkyForge highlights">
+        <div class="signal-intro"><span class="section-index">01 / 04</span><h2>More than a<br /><em>feed.</em></h2></div>
+        <p class="signal-description">SkyForge is the field guide, workshop, and launchpad for the next generation of aerial creators.</p>
+        <div class="signal-arrow" aria-hidden="true">↘</div>
+      </section>
+
+      <section class="manifesto" aria-labelledby="manifesto-title">
+        <div class="manifesto-image image-frame">
+          <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=1200&q=85" alt="Drone flying above a rocky coastline" />
+          <span class="image-label">AERIAL / 35.2187° N</span>
+        </div>
+        <div class="manifesto-copy">
+          <p class="eyebrow dark-eyebrow">Built for the curious</p>
+          <h2 id="manifesto-title">The view is<br /><em>better together.</em></h2>
+          <p>From your first flight to your thousandth build, SkyForge connects the ideas, people, and places that keep you looking up.</p>
+          <a class="arrow-link" href="#join">See what’s taking shape <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="community" id="community" aria-labelledby="community-title">
+        <div class="community-heading">
+          <div><span class="section-index">02 / 04</span><h2 id="community-title">Make something<br /><em>worth seeing.</em></h2></div>
+          <p>Bring your curiosity. Leave with a new route, a better rig, or a reason to get outside.</p>
+        </div>
+        <div class="community-grid">
+          <article class="community-card card-orange">
+            <div><span class="card-number">01</span><span class="card-icon">◌</span></div>
+            <h3>Find your<br />flight crew.</h3>
+            <p>Meet pilots and creators who speak your frequency.</p>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="community-card card-image">
+            <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=900&q=85" alt="Drone silhouette against a sunset sky" />
+            <div class="image-card-overlay"><span class="card-number">02</span><h3>Share the<br />view.</h3><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="community-card card-dark">
+            <div><span class="card-number">03</span><span class="card-icon">⌁</span></div>
+            <h3>Build what’s<br />next.</h3>
+            <p>Swap schematics, print better parts, and ship wild ideas.</p>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="join-section" id="join" aria-labelledby="join-title">
+        <div class="join-orbit orbit-one"></div><div class="join-orbit orbit-two"></div>
+        <div class="join-content">
+          <span class="section-index light-index">03 / 04</span>
+          <h2 id="join-title">The sky’s<br /><em>not the limit.</em></h2>
+          <p>SkyForge is getting ready for takeoff. Get on the list and be part of the first flight.</p>
+          <form class="waitlist-form" id="waitlist-form">
+            <label class="sr-only" for="email">Your email address</label>
+            <input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required />
+            <button class="button button-light" type="submit">Join the waitlist <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="form-note" id="form-note">No noise. Just launch updates.</p>
+        </div>
+        <img class="join-logo" src="logo.svg" alt="" aria-hidden="true" />
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top"><img class="brand-icon" src="logo.svg" alt="" /><span>skyforge</span></a>
+      <p>Explore. Create. Fly.</p>
+      <p class="footer-meta">© 2025 SkyForge / Made for the upwardly curious</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

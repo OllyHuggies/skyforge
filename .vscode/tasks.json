@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open SkyForge in browser",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "if ! curl -fsS http://localhost:8000 >/dev/null 2>&1; then python3 -m http.server 8000 >/tmp/skyforge-http.log 2>&1 & fi; xdg-open http://localhost:8000"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
